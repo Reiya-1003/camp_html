@@ -1,0 +1,80 @@
+
+
+.body {
+    background-color:black;
+}
+
+
+.wrapper {
+    text-align: center;
+    color: white;
+    border: solid;
+    border-color: white;
+    
+    
+}
+
+
+.myhand {
+    text-align: center;
+    padding-top: 100px;
+    border: solid;
+    border-color: white;
+    padding-bottom: 100px;
+    
+    
+
+}  
+
+
+.goo {
+    width: 200px;
+    height: 200px;
+    vertical-align: bottom;
+    line-height: 1.0em;
+}
+
+.choki {
+    width: 200px;
+    height: 200px;
+    vertical-align: bottom;
+    line-height: 1.0em;
+}
+
+.paa {
+    width: 200px;
+    height: 200px;
+    
+    vertical-align: bottom;
+    line-height: 1.0em;
+}
+
+
+
+.aite {
+    text-align: center;
+    border: solid;
+    border-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    
+}
+
+.aitejpg{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+   
+    
+    
+}
+
+
+
+
+
+.reload {
+    text-align: center;
+   padding-top: 10px;
+}

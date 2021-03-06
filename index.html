@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <!-- minify -->
+    <link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" rel="stylesheet" />
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />  
+    <title>JankenDojo</title>
+</head>
+<body class="body">
+<div class="wrapper">
+
+<div　id="dojo" class="dojo">JankenDojo & Raou</div>
+<!-- こっちのて -->
+<ul id="myhand" class="myhand">
+    <button><img src="img/goo.jpg" alt="グー" id="goo" class="goo"/></button>
+    <button><img src="img/choki.jpg" alt="チョキ" id="choki" class="choki"/></button>
+    <button><img src="img/paa.jpg" alt="パー" id="paa" class="paa"/></button>
+</ul>
+
+<!-- 相手のて -->
+<div id="aite" class="aite"><img class="aitejpg" id="aitejpg" src="img/teki.jpg" alt="画像"></div>
+
+<div id="reload" class="reload"><input  type="button" value="Continue" onclick="window.location.reload();" /></div>
+
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="style.js"></script>
+</div>
+</body>
+</html>
